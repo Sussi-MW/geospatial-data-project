@@ -29,13 +29,13 @@ In addition, to obtain data from the closest places of interest, an information 
 
 ### 1. Exploring the MongoDB dataset to select location
 
-#### Obtain all companies that have less than 100 employees and that have an Appraisal Amount greater than 1,000,000.
+- Obtain all companies that have less than 100 employees and that have an Appraisal Amount greater than 1,000,000.
 
-#### Get all companies located in San Francisco that have at least 90 employees but fewer than 200. Excluding companies that have a value of None in the Offices / Latitude field.
+- Get all companies located in San Francisco that have at least 90 employees but fewer than 200. Excluding companies that have a value of None in the Offices / Latitude field.
 
-### In the data frame it is observed that San Francisco is the most repeated location
+In the data frame it is observed that San Francisco is the most repeated location
 
-### We choose 'hi5' as the first option
+We choose 'hi5' as the first option
 
 #### Get location
 
@@ -48,7 +48,7 @@ longitude = -122.400558
 1(ubicación_seleccionada.html)
 ```
 
-### Study of nearby location requirements
+### 2. Study of nearby location requirements
 
 ####  2.1. Tech startups
 Near successful tech startups that have raised at least 1 Million dollars
@@ -75,10 +75,10 @@ The CEO is vegan.
 
 - Obtaining information from the Foursquare API, related to the Vegan restaurants located within a radius of 500 m.
 
-#### 2.5 Daycare.
+#### 2.6 Daycare.
 30% of the company staff have at least 1 child.
 
-# Obtaining information from the Foursquare API, related to the Daycare located within a radius of 500 m.
+- Obtaining information from the Foursquare API, related to the Daycare located within a radius of 500 m.
 
 
 ### 3. General dataset with all points located
@@ -96,14 +96,22 @@ The CEO is vegan.
 
 Within a radius of 500m from the selected location, we have located the following sites:
 
-- 16 Starbucks
+- 16 Starbucks.
+- Nearestt Starbucks: 37.788792 -122.400710 - dist 0.011923 miles
+
 - 30 Nightlife Spot
+- Nearestt Nightlife Spot: Atlas Tap Room 37.787880 -122.400027 - dist 0.061661 miles
+
 - 14 Vegan restaurants
+- Nearestt Vegan restaurants: Sunrise Deli 37.788611 -122.400532 - dist 0.004189 miles
+
 - 3 Daycare
+- Nearestt Daycare: Kids by the Bay - Financial District 37.785471 -122.398037 - dist 0.260106 miles
 
-The city has two airports.
+- The city has two airports.
 
-Also, very close to the office location are 10 successful tech startups.
+- Also, very close to the office location are 10 successful tech startups.
+- Nearestt tech startups: Twilio 37.789850 -122.400683 - 0.081800 miles
 
 ---
 ## Resources used

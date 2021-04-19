@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6bc7e7842d6c4315acbb5d25ee30e3c6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@master/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6bc7e7842d6c4315acbb5d25ee30e3c6" ></div>
+        
+</body>
+<script>    
+    
+            var map_6bc7e7842d6c4315acbb5d25ee30e3c6 = L.map(
+                "map_6bc7e7842d6c4315acbb5d25ee30e3c6",
+                {
+                    center: [37.788668, -122.400558],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f921cdfd37774e05bd66856c350d4e63 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6bc7e7842d6c4315acbb5d25ee30e3c6);
+        
+    
+            var feature_group_f4034eb361be4c5daccc079a3b6feefe = L.featureGroup(
+                {}
+            ).addTo(map_6bc7e7842d6c4315acbb5d25ee30e3c6);
+        
+    
+            var heat_map_c92185d7b51b47af84b37a9fe126b0da = L.heatLayer(
+                [[37.788668, -122.400558], [37.7955307, -122.4005983], [37.787183, -122.397759], [37.76785, -122.392839], [37.775196, -122.419204], [37.779507, -122.39071], [37.797435, -122.403175], [37.7898499, -122.4006831], [37.791388, -122.392148], [37.781689, -122.391061]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
+            ).addTo(feature_group_f4034eb361be4c5daccc079a3b6feefe);
+        
+    
+            var feature_group_90b5504fbd1d4d16a893821b84c87026 = L.featureGroup(
+                {}
+            ).addTo(map_6bc7e7842d6c4315acbb5d25ee30e3c6);
+        
+    
+            var heat_map_4774a3f3d2244f97968c897493a01f7f = L.heatLayer(
+                [[37.78965079521804, -122.3966218114947], [37.791939, -122.397402], [37.79011, -122.39561], [37.79110449587187, -122.40095109449513], [37.788791650635936, -122.40071024847565], [37.78736, -122.40318], [37.78946201, -122.3975822], [37.78578235753868, -122.39668675186688], [37.79042546, -122.4057733], [37.787902093486046, -122.40114386977035], [37.789594, -122.402032], [37.791912, -122.398364], [37.79081741920106, -122.40402558176096], [37.79306, -122.39976], [37.79219, -122.40354], [37.78479367728659, -122.39997391499341]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
+            ).addTo(feature_group_90b5504fbd1d4d16a893821b84c87026);
+        
+    
+            var feature_group_2223ee2d80744627b5dc16be013e7e42 = L.featureGroup(
+                {}
+            ).addTo(map_6bc7e7842d6c4315acbb5d25ee30e3c6);
+        
+    
+            var heat_map_9eea6916439d48a389a65f7c45350e8f = L.heatLayer(
+                [[37.6167130000997, -122.38709449768066], [37.7119363925842, -122.21341609954834]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
+            ).addTo(feature_group_2223ee2d80744627b5dc16be013e7e42);
+        
+    
+            var feature_group_044f1ba9cf41467586f1af1c918ff0b3 = L.featureGroup(
+                {}
+            ).addTo(map_6bc7e7842d6c4315acbb5d25ee30e3c6);
+        
+    
+            var heat_map_1de69da6c2e84c26b366ebfc81bdd442 = L.heatLayer(
+                [[37.7899599, -122.4009151], [37.78692684646371, -122.40124617735732], [37.7896955, -122.4034456], [37.7878125, -122.4029131], [37.78704, -122.403241], [37.787064, -122.40327], [37.790932, -122.403559], [37.784679, -122.398408], [37.78760015732102, -122.39850240056661], [37.78681314613732, -122.40045559116204], [37.787898354727325, -122.39722701763962], [37.785483, -122.400088], [37.787879683527684, -122.40002652251776], [37.79122902447101, -122.40082101696274], [37.785349005911556, -122.40436221777719], [37.786449, -122.406938], [37.7859444, -122.3996934], [37.785488302709865, -122.39961423948463], [37.78652, -122.4031], [37.790493, -122.405492], [37.78497895324267, -122.4042480853791], [37.78704127265531, -122.40299624782432], [37.785977, -122.396779], [37.793903, -122.402272], [37.79328790074778, -122.39913383967941], [37.785423478645654, -122.3969291403929], [37.79179551117991, -122.40378011785673], [37.79145871851356, -122.40383347056067], [37.78465243491517, -122.40166780064136], [37.790726, -122.403643]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
+            ).addTo(feature_group_044f1ba9cf41467586f1af1c918ff0b3);
+        
+    
+            var feature_group_4457f591b3a74efcb7ddf5ce50f2e6c5 = L.featureGroup(
+                {}
+            ).addTo(map_6bc7e7842d6c4315acbb5d25ee30e3c6);
+        
+    
+            var heat_map_a89b2e9f831c4e21960fafd48e4049ed = L.heatLayer(
+                [[37.7872625, -122.3986346], [37.788844, -122.399149], [37.78575139510038, -122.40412370868718], [37.79252480866014, -122.39846488908981], [37.792053, -122.396844], [37.79158868733382, -122.40078673484405], [37.78861080016589, -122.40053225084378], [37.79188755556935, -122.40249870982906], [37.785967464712556, -122.40456727431445], [37.78566749810606, -122.39970283233973], [37.790158, -122.40243899999999], [37.7862298, -122.4042347], [37.78902086125703, -122.40184795457114], [37.788313, -122.402916]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
+            ).addTo(feature_group_4457f591b3a74efcb7ddf5ce50f2e6c5);
+        
+    
+            var feature_group_785e79e52695436698c35244b77d5f32 = L.featureGroup(
+                {}
+            ).addTo(map_6bc7e7842d6c4315acbb5d25ee30e3c6);
+        
+    
+            var heat_map_9ca9eca8c42b440e9fd9ac46ccd20517 = L.heatLayer(
+                [[37.785471, -122.39803700000002], [37.792097, -122.40374399999999], [37.78958194880583, -122.39511750429915]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
+            ).addTo(feature_group_785e79e52695436698c35244b77d5f32);
+        
+    
+            var marker_92924fa9bad942b3b3d503a301d9a0b3 = L.marker(
+                [37.788668, -122.400558],
+                {}
+            ).addTo(map_6bc7e7842d6c4315acbb5d25ee30e3c6);
+        
+    
+            var icon_f4bdaba27442405aa746075bbd90b4c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building-o", "iconColor": "black", "markerColor": "orange", "prefix": "fa", "tooltip": "My Location"}
+            );
+            marker_92924fa9bad942b3b3d503a301d9a0b3.setIcon(icon_f4bdaba27442405aa746075bbd90b4c1);
+        
+    
+            marker_92924fa9bad942b3b3d503a301d9a0b3.bindTooltip(
+                `<div>
+                     My location
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_ab759cebdde148878ccc459d55cfa59c = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f921cdfd37774e05bd66856c350d4e63,
+                },
+                overlays :  {
+                    "Tech startups" : feature_group_f4034eb361be4c5daccc079a3b6feefe,
+                    "Starbucks" : feature_group_90b5504fbd1d4d16a893821b84c87026,
+                    "Airport" : feature_group_2223ee2d80744627b5dc16be013e7e42,
+                    "Nightlife Spot" : feature_group_044f1ba9cf41467586f1af1c918ff0b3,
+                    "Vegan restaurants" : feature_group_4457f591b3a74efcb7ddf5ce50f2e6c5,
+                    "Daycare" : feature_group_785e79e52695436698c35244b77d5f32,
+                },
+            };
+            L.control.layers(
+                layer_control_ab759cebdde148878ccc459d55cfa59c.base_layers,
+                layer_control_ab759cebdde148878ccc459d55cfa59c.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_6bc7e7842d6c4315acbb5d25ee30e3c6);
+        
+</script>
