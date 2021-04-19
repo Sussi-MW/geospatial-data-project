@@ -1,4 +1,4 @@
-
+<img src="https://github.com/Sussi-MW/geospatial-data-project/blob/master/portada.jpg" width="1000" height="400">
 
 # Project: GeoSpatial Data
 ## by Susana Martin Wanton
@@ -97,21 +97,21 @@ The CEO is vegan.
 Within a radius of 500m from the selected location, we have located the following sites:
 
 - 16 Starbucks.
-- Nearestt Starbucks: 37.788792 -122.400710 - dist 0.011923 miles
+  Nearestt Starbucks: 37.788792 -122.400710 - dist 0.011923 miles
 
 - 30 Nightlife Spot
-- Nearestt Nightlife Spot: Atlas Tap Room 37.787880 -122.400027 - dist 0.061661 miles
+  Nearestt Nightlife Spot: Atlas Tap Room 37.787880 -122.400027 - dist 0.061661 miles
 
 - 14 Vegan restaurants
-- Nearestt Vegan restaurants: Sunrise Deli 37.788611 -122.400532 - dist 0.004189 miles
+  Nearestt Vegan restaurants: Sunrise Deli 37.788611 -122.400532 - dist 0.004189 miles
 
 - 3 Daycare
-- Nearestt Daycare: Kids by the Bay - Financial District 37.785471 -122.398037 - dist 0.260106 miles
+  Nearestt Daycare: Kids by the Bay - Financial District 37.785471 -122.398037 - dist 0.260106 miles
 
 - The city has two airports.
 
 - Also, very close to the office location are 10 successful tech startups.
-- Nearestt tech startups: Twilio 37.789850 -122.400683 - 0.081800 miles
+  Nearestt tech startups: Twilio 37.789850 -122.400683 - 0.081800 miles
 
 ---
 ## Resources used
